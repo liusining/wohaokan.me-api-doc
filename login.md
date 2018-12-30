@@ -8,7 +8,7 @@
 
 ### HTTP
 
-> GET /login?code=<mixin-code>
+> POST /login
 
 
 
@@ -16,7 +16,7 @@
 
 | 名称 | 类型      | 必须？ | 默认值 | 说明              |
 | ---- | --------- | ------ | ------ | ----------------- |
-| code | url param | 是     | 无     | mixin 返回的 code |
+| code | string | 是     | 无     | mixin 返回的 code |
 
 
 
@@ -30,7 +30,8 @@
     "msg": "OK",
     "result": {
         "name": "James Zhang",
-        "avatar_url": "https://example.com/abc.jpg"
+        "avatar_url": "https://example.com/abc.jpg",
+        "session_key": "XXX123asdf"
     }
 }
 ```
