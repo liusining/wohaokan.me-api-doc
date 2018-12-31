@@ -78,7 +78,7 @@
                 "age": 23
             }
         ],
-        pagination: {
+        "pagination": {
             "page": 1,
             "total: 113
         }
