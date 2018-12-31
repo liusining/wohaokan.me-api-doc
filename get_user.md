@@ -26,7 +26,7 @@
     "msg": "OK",
     "result": {
         "name": "James Zhang",
-        "description": "I'm a frontend developer"
+        "description": "I'm a frontend developer",
         "image": "https://example.com/abc.jpg",
         "beauty": 98,
         "gender": "Female",
