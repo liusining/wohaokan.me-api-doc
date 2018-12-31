@@ -23,7 +23,7 @@ response body 中自带一套 status 码：
 
 ## 验证机制
 
-【待补充】
+在需要验证用户的 requests 中加入一个 header： `X-Session-Key`
 
 
 
