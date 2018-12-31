@@ -38,7 +38,11 @@
                 "likes": 0,
                 "age": 0
             }
-        ]
+        ],
+        "pagination": {
+            "page": 1,
+            "total": 0
+        }
     }
 }
 ```
@@ -73,7 +77,11 @@
                 "likes": 1,
                 "age": 23
             }
-        ]
+        ],
+        pagination: {
+            "page": 1,
+            "total: 113
+        }
     }
 }
 ```
