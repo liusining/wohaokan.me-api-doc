@@ -29,12 +29,14 @@
 ```json
 {
     "status": 200,
-    "msg": "OK",
+    "msg": "not logging in, cover image only",
     "result": {
         "images": [
             {
-                "url": "https://example.com/abc.jpg",
-                "likes": 17
+                "url": "https://example.com/default.jpg",
+                "user_id": -1,
+                "likes": 0,
+                "age": 0
             }
         ]
     }
@@ -54,16 +56,22 @@
     "result": {
         "images": [
             {
-                "url": "https://example.com/abc.jpg",
-                "likes": 17
+                "url": "https://example.com/default.jpg",
+                "user_id": 12,
+                "likes": 1,
+                "age": 23
             },
             {
-                "url": "https://example.com/abc.jpg",
-                "likes": 17
+                "url": "https://example.com/default.jpg",
+                "user_id": 12,
+                "likes": 1,
+                "age": 23
             },
             {
-                "url": "https://example.com/abc.jpg",
-                "likes": 17
+                "url": "https://example.com/default.jpg",
+                "user_id": 12,
+                "likes": 1,
+                "age": 23
             }
         ]
     }
