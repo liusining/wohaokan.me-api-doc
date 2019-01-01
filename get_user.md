@@ -27,6 +27,7 @@
     "result": {
         "name": "James Zhang",
         "description": "I'm a frontend developer",
+        "has_image": true,
         "image": "https://example.com/abc.jpg",
         "beauty": 98,
         "gender": "Female",
