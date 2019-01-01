@@ -20,7 +20,11 @@
 {
     "status": 200,
     "msg": "OK",
-    "result": {}
+    "result": {
+        "beauty": 98,
+        "gender": "Female",
+        "age": 23,
+    }
 }
 ```
 
