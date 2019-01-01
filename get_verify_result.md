@@ -28,7 +28,12 @@
 {
     "status": 200,
     "msg": "OK",
-    "result": {}
+    "result": {
+        "url": "https://s3.ap-northeast-1.amazonaws.com/abcd.jpg",
+        "beauty": 77.769,
+        "gender": "Male",
+        "age": 23
+     }
 }
 ```
 
@@ -40,7 +45,12 @@
 {
     "status": 400,
     "msg": "认证失败：PASS_LIVING_NOT_THE_SAME",
-    "result": {}
+    "result": {
+        "url": "https://s3.ap-northeast-1.amazonaws.com/abcd.jpg",
+        "beauty": 77.769,
+        "gender": "Male",
+        "age": 23
+    }
 }
 ```
 
