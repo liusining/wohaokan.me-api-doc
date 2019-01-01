@@ -31,7 +31,8 @@
     "result": {
         "beauty": 98,
         "gender": "Female",
-        "age": 23
+        "age": 23,
+        "verify_url": "https://openapi.faceid.com/lite/v1/do/hahaha12312312"
     }
 }
 ```
