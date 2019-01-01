@@ -1,14 +1,14 @@
-# 展示一张照片
+# 加载照片
 
 
 
-获得一张照片的 URL。
+获得几张照片的 URL 和相关信息。
 
 
 
 ### HTTP
 
-> GET /get_images?page=<page-number>
+> GET /get_images?page=PAGE\_NUMBER
 
 
 
