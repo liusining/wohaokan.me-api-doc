@@ -29,8 +29,6 @@
     "status": 200,
     "msg": "OK",
     "result": {
-        "name": "James Zhang",
-        "avatar_url": "https://example.com/abc.jpg",
         "session_key": "XXX123asdf"
     }
 }

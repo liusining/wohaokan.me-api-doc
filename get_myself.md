@@ -29,6 +29,7 @@
       "msg": "OK",
       "result": {
         "name": "刘思宁",
+        "avatar_url": "",
         "mixin_id": 37230353,
         "description": "",
         "has_image": false,
