@@ -8,7 +8,7 @@
 
 ### HTTP
 
-> GET /get_images?page=PAGE\_NUMBER
+> GET /get_images?page=PAGE\_NUMBER&gender=GENDER
 
 
 
@@ -16,7 +16,8 @@
 
 | 名称 | 类型      | 必须？ | 默认值 | 说明                     |
 | ---- | --------- | ------ | ------ | ------------------------ |
-| page | url param | 否     | 1      | 页面，防止返回重复的图片 |
+| page | url param | 否     | 1      | 页码，防止返回重复的图片 |
+| gender | url param | 否     | 无     | 想看的性别 |
 
 
 
