@@ -31,8 +31,23 @@
     "status": 200,
     "msg": "OK",
     "result": {
-        "pay_url": "https://mixin.one/pay?recipient=faf9XXXX"
-    }
+        "pay_url": "https://mixin.one/pay?recipient=faf9XXXX",
+        "amount": 0.1,
+        "asset_id": "6cfe566e-4aad-470b-8c9a-2fd35b49c68d",
+        "opponent_id": "faf9c343-677e-4f84-89cd-4c5688f22f7c",
+        "trace_id": "3b6ecdc6-0ebe-11e9-acf4-0242f3b5db4d"
+  }
+}
+```
+
+请求 pay_url 后，循环请求 `https://api.mixin.one/payments`, 参数取上面返回中的后四组参数，形式如下：
+
+```json
+{
+    "amount": 0.1,
+    "asset_id": "6cfe566e-4aad-470b-8c9a-2fd35b49c68d",
+    "opponent_id": "faf9c343-677e-4f84-89cd-4c5688f22f7c",
+    "trace_id": "3b6ecdc6-0ebe-11e9-acf4-0242f3b5db4d"
 }
 ```
 
