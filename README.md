@@ -19,6 +19,18 @@ response body 中自带一套 status 码：
 1. 200 为成功
 2. 400 为不成功
 
+如果 session-key 失效，怎返回： 
+
+http 200 ，body 为：
+
+```json
+{
+  "status": 700,
+  "msg": "invalid session key",
+  "result": {}
+}
+```
+
 
 
 ## 验证机制
