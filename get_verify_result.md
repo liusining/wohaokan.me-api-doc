@@ -49,7 +49,8 @@
         "url": "https://s3.ap-northeast-1.amazonaws.com/abcd.jpg",
         "beauty": 77.769,
         "gender": "Male",
-        "age": 23
+        "age": 23,
+        "verify_url": "https://openapi.faceid.com/lite/v1/do/XXX"
     }
 }
 ```
