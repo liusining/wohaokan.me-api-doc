@@ -20,6 +20,10 @@
 
 ### 返回
 
+
+
+成功的返回
+
 ```json
 {
     "status": 200,
@@ -37,6 +41,7 @@
         "beauty": 0,
         "gender": "",
         "age": 0,
+        "display_image": false,
         "rank": 14,
         "income": 0.1,
         "tip_transations": {
@@ -58,3 +63,7 @@
 
 
 
+说明：
+
+1. has_image 表示用户是否有照片
+2. display_image 表示用户是否**上架**自己的照片
