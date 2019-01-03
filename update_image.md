@@ -24,6 +24,7 @@
         "beauty": 98,
         "gender": "Female",
         "age": 23,
+        "new_url": "https://example.com/abcd.jpg"
     }
 }
 ```
